@@ -18,7 +18,6 @@ static void gpio_task(void *arg)
         if (xQueueReceive(gpio_evt_queue, &timeval_s, portMAX_DELAY))
         {
             local_ts = (uint64_t)timeval_s.tv_sec * 1000000L + (uint64_t)timeval_s.tv_usec;
-            // ESP_LOGI(tag,"Local time : %lld", local_time_us);
             printf("Local time : %lld\n", local_ts);
         }
     }
