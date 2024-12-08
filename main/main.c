@@ -58,46 +58,15 @@ int onDisconnect(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 
 int onSubscribe(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
-    // 将连接时间发出去用于同步
-    int i = 0;
-    for (i = 0; i < PROFILE_NUM; i++)
-    {
-        if (peerinfos[i].conn_handle == conn_handle)
-            break;
-    }
-    local_ts = peerinfos[i].connect_time;
-    ESP_LOGE(TAG, "connect time = %lld, send to %s to sync ", local_ts, peerinfos[i].name);
-    ble_gattc_write_flat(conn_handle, peerinfos[i].val_handle, &local_ts, sizeof(local_ts), NULL, NULL);
-    sync_num = sync_num + 1;
-    if (sync_num == PROFILE_NUM)
-    {
-        xSemaphoreGive(printSemaphore);
-    }
-    ESP_LOGE(TAG, "sync num = %d ", sync_num);
+    xSemaphoreGive(printSemaphore);
     return 0;
 }
 
-// 将node发送过来的时间戳打印出来
 int onNotifyRx(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
-    struct ble_gap_conn_desc conn_desc;
-    for (uint8_t i = 0; i < PROFILE_NUM; i++)
-        if (conn_handle == peerinfos[i].conn_handle)
-        {
-            if (event->notify_rx.attr_handle == peerinfos[i].val_handle)
-            {
-                if (OS_MBUF_PKTLEN(event->notify_rx.om) == 8)
-                {
-                    node_ts = *(int64_t *)event->notify_rx.om->om_data; // 刚好是小端存储
-                    printf("%s time : %lld\n", peerinfos[i].name, node_ts);
-                }
-            }
-            break;
-        }
     return 0;
 }
 
-// 生成下降沿打印输出
 void print_time_task(void *pvParameters)
 {
     for (;;)
