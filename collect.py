@@ -31,11 +31,11 @@ def read_and_print_serial(port, baud_rate, output_file):
 
 if __name__ == "__main__":
     # 串口配置
-    serial_port = "/dev/COM3"  # 根据你的实际串口设置
+    serial_port = "/dev/COM8"  # 根据你的实际串口设置
     baud_rate = 115200  # 根据你的实际波特率设置
 
     # 输出文件名
-    output_file = "only_connect_event4.txt"
+    output_file = "time_shift.txt"
 
     # 读取并打印串口输出，遇到异常时保存为txt
     read_and_print_serial(serial_port, baud_rate, output_file)
