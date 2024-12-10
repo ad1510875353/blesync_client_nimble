@@ -81,14 +81,14 @@ int onNotifyRx(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
     return 0;
 }
 
-// 生成下降沿打印输出
+// 每20秒或者每2秒产生一次下降沿 以便能够获取时间
 void print_time_task(void *pvParameters)
 {
     for (;;)
     {
         if (xSemaphoreTake(printSemaphore, portMAX_DELAY))
         {
-            vTaskDelay(20000);
+            vTaskDelay(2000);
             cnt++;
             printf("\n%lld sync print begin***********************\n", cnt);
             set_led_state(cnt % 2);
