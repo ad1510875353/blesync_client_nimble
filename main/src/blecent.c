@@ -9,8 +9,8 @@ static struct GapCallbacks_t gapcbs;
 static struct ble_gap_conn_params conn_params = {
     .scan_itvl = 16,
     .scan_window = 16,
-    .itvl_min = 36,
-    .itvl_max = 36,
+    .itvl_min = 8,
+    .itvl_max = 8,
     .latency = 0,
     .supervision_timeout = 500,
     .min_ce_len = 0,

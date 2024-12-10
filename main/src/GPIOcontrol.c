@@ -17,8 +17,7 @@ static void gpio_task(void *arg)
     {
         if (xQueueReceive(gpio_evt_queue, &timeval_s, portMAX_DELAY))
         {
-            local_ts = (uint64_t)timeval_s.tv_sec * 1000000L + (uint64_t)timeval_s.tv_usec;
-            // ESP_LOGI(tag,"Local time : %lld", local_time_us);
+            int64_t local_ts = (uint64_t)timeval_s.tv_sec * 1000000L + (uint64_t)timeval_s.tv_usec;
             printf("Local time : %lld\n", local_ts);
         }
     }
@@ -32,8 +31,7 @@ void gpio_init()
         .mode = GPIO_MODE_OUTPUT,
         .pull_up_en = 1,
         .pull_down_en = 0,
-        .intr_type = GPIO_INTR_DISABLE
-    };
+        .intr_type = GPIO_INTR_DISABLE};
     gpio_config(&io_conf);
     gpio_set_level(LED1, 0);
     gpio_set_level(LED2, 0);
