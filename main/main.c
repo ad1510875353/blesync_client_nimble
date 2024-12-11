@@ -13,9 +13,9 @@ volatile int sync_num = 0;
 
 int onConnect(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
-    struct ble_gap_conn_desc conn_desc;
-    int i = connstate.curr_id;
     gettimeofday(&timeval_s, NULL);
+    int i = connstate.curr_id;
+    struct ble_gap_conn_desc conn_desc;
     ble_gap_conn_find(conn_handle, &conn_desc);
     ESP_LOGI(TAG, "%s connect successed, connect handle=%d, interval=%d",
              peerinfos[i].name, conn_handle, conn_desc.conn_itvl);
@@ -53,6 +53,10 @@ int onDisconnect(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 
 int onSubscribe(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
+    // 将连接时间发出去用于同步
+    vTaskDelay(10);
+    int64_t local_ts = peerinfos[0].connect_time;
+    ble_gattc_write_no_rsp_flat(peerinfos[0].conn_handle, peerinfos[0].val_handle, &local_ts, sizeof(local_ts));
     xSemaphoreGive(printSemaphore);
     return 0;
 }
@@ -73,7 +77,6 @@ int onNotifyRx(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
                     uint8_t data_type = data_buf[0];
                     int64_t node_ts = *(int64_t *)(data_buf + 1); // 刚好是小端存储
                     printf("%s time : %lld\n", peerinfos[i].name, node_ts);
-                    xSemaphoreGive(printSemaphore);
                 }
             }
             break;
@@ -89,17 +92,15 @@ void print_time_task(void *pvParameters)
     {
         if (xSemaphoreTake(printSemaphore, portMAX_DELAY))
         {
-            // 将当前时间发出去用于同步
-            vTaskDelay(100 + esp_random() % 1000);
-            gettimeofday(&timeval_s, NULL);
-            int64_t local_ts = (int64_t)timeval_s.tv_sec * 1000000L + (uint64_t)timeval_s.tv_usec;
-            ble_gattc_write_no_rsp_flat(peerinfos[0].conn_handle, peerinfos[0].val_handle, &local_ts, sizeof(local_ts));
             // 延迟等待对方收到
             vTaskDelay(50);
             cnt++;
             printf("\n%d sync print begin***********************\n", cnt);
             set_led_state(cnt % 2);
             generate_falling_edge();
+            // 延迟等待对方发送时间戳过来，然后断开连接
+            vTaskDelay(5000 + esp_random() % 1000);
+            ble_gap_terminate(peerinfos[0].conn_handle, BLE_ERR_REM_USER_CONN_TERM);
         }
     }
 }

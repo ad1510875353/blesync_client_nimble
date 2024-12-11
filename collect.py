@@ -35,7 +35,7 @@ if __name__ == "__main__":
     baud_rate = 115200  # 根据你的实际波特率设置
 
     # 输出文件名
-    output_file = "sync_ntp.txt"
+    output_file = "sync_conn_event.txt"
 
     # 读取并打印串口输出，遇到异常时保存为txt
     read_and_print_serial(serial_port, baud_rate, output_file)
