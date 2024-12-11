@@ -3,6 +3,7 @@
 #include "esp_random.h"
 #include "device.h"
 #include "GPIOcontrol.h"
+#include "esp_rom_sys.h"
 
 static SemaphoreHandle_t printSemaphore;
 
@@ -13,9 +14,9 @@ volatile int sync_num = 0;
 
 int onConnect(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
+    gettimeofday(&timeval_s, NULL);
     struct ble_gap_conn_desc conn_desc;
     int i = connstate.curr_id;
-    gettimeofday(&timeval_s, NULL);
     ble_gap_conn_find(conn_handle, &conn_desc);
     ESP_LOGI(TAG, "%s connect successed, connect handle=%d, interval=%d",
              peerinfos[i].name, conn_handle, conn_desc.conn_itvl);
@@ -81,7 +82,7 @@ int onNotifyRx(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
     return 0;
 }
 
-// 生成一个下降沿
+// 延迟一定时间后将时间戳发送给对方用于同步，然后生成下降沿输出时间
 void print_time_task(void *pvParameters)
 {
     static int cnt = 0;
@@ -89,8 +90,10 @@ void print_time_task(void *pvParameters)
     {
         if (xSemaphoreTake(printSemaphore, portMAX_DELAY))
         {
+            // 延迟随机的毫秒和微秒数目,这里要有微秒级别的延迟，不然保证不了是任意时间放入
+            vTaskDelay(200 + esp_random() % 10);
+            esp_rom_delay_us(esp_random() % 1000);
             // 将当前时间发出去用于同步
-            vTaskDelay(100 + esp_random() % 1000);
             gettimeofday(&timeval_s, NULL);
             int64_t local_ts = (int64_t)timeval_s.tv_sec * 1000000L + (uint64_t)timeval_s.tv_usec;
             ble_gattc_write_no_rsp_flat(peerinfos[0].conn_handle, peerinfos[0].val_handle, &local_ts, sizeof(local_ts));
