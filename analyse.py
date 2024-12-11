@@ -26,7 +26,7 @@ def plot_times(local_times, node1_times):
     delta = [(local_times[i] - node1_times[i]) for i in range(len(local_times))]
     print(delta)
     time_err = np.array(delta)
-    custom_bins = np.arange(-30, 50, 3)
+    custom_bins = np.arange(0, 110, 4)
     # 绘制差值的直方图
     plt.style.use("seaborn-v0_8-deep")
     plt.figure(dpi=200)

@@ -3,6 +3,7 @@
 #include "esp_random.h"
 #include "device.h"
 #include "GPIOcontrol.h"
+#include "esp_rom_sys.h"
 
 static SemaphoreHandle_t printSemaphore;
 
@@ -53,10 +54,6 @@ int onDisconnect(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 
 int onSubscribe(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
-    // 将连接时间发出去用于同步
-    vTaskDelay(10);
-    int64_t local_ts = peerinfos[0].connect_time;
-    ble_gattc_write_no_rsp_flat(peerinfos[0].conn_handle, peerinfos[0].val_handle, &local_ts, sizeof(local_ts));
     xSemaphoreGive(printSemaphore);
     return 0;
 }
@@ -77,6 +74,9 @@ int onNotifyRx(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
                     uint8_t data_type = data_buf[0];
                     int64_t node_ts = *(int64_t *)(data_buf + 1); // 刚好是小端存储
                     printf("%s time : %lld\n", peerinfos[i].name, node_ts);
+                    // 收到之后断开连接
+                    vTaskDelay(100 + esp_random() % 100);
+                    ble_gap_terminate(conn_handle, BLE_ERR_REM_USER_CONN_TERM);
                 }
             }
             break;
@@ -84,7 +84,7 @@ int onNotifyRx(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
     return 0;
 }
 
-// 生成一个下降沿
+// 发送连接时间用于同步，然后生成中断打印时间
 void print_time_task(void *pvParameters)
 {
     static int cnt = 0;
@@ -92,15 +92,16 @@ void print_time_task(void *pvParameters)
     {
         if (xSemaphoreTake(printSemaphore, portMAX_DELAY))
         {
-            // 延迟等待对方收到
+            // 发送连接时间
+            vTaskDelay(10);
+            int64_t local_ts = peerinfos[0].connect_time;
+            ble_gattc_write_no_rsp_flat(peerinfos[0].conn_handle, peerinfos[0].val_handle, &local_ts, sizeof(local_ts));
+            // 延迟等待对方收到，然后生成下降沿
             vTaskDelay(50);
             cnt++;
             printf("\n%d sync print begin***********************\n", cnt);
             set_led_state(cnt % 2);
             generate_falling_edge();
-            // 延迟等待对方发送时间戳过来，然后断开连接
-            vTaskDelay(5000 + esp_random() % 1000);
-            ble_gap_terminate(peerinfos[0].conn_handle, BLE_ERR_REM_USER_CONN_TERM);
         }
     }
 }
