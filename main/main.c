@@ -54,13 +54,13 @@ int onDisconnect(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 
 int onSubscribe(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
-    xSemaphoreGive(printSemaphore);
     return 0;
 }
 
 // 将node发送过来的时间戳打印出来
 int onNotifyRx(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
+    gettimeofday(&timeval_s, NULL);
     int rc = 0;
     uint8_t data_buf[10];
     for (uint8_t i = 0; i < PROFILE_NUM; i++)
@@ -72,9 +72,23 @@ int onNotifyRx(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
                 {
                     rc = ble_hs_mbuf_to_flat(event->notify_rx.om, data_buf, event->notify_rx.om->om_len, NULL);
                     uint8_t data_type = data_buf[0];
-                    int64_t node_ts = *(int64_t *)(data_buf + 1); // 刚好是小端存储
-                    printf("%s time : %lld\n", peerinfos[i].name, node_ts);
-                    xSemaphoreGive(printSemaphore);
+                    // 根据data_type判断接下来是打印时间戳还是同步时间给对方
+                    if (data_type == 0)
+                    {
+                        int64_t node_ts = *(int64_t *)(data_buf + 1); // 刚好是小端存储
+                        printf("%s time : %lld\n", peerinfos[i].name, node_ts);
+                    }
+                    else if (data_type == 1)
+                    {
+                        int64_t local_ts = (int64_t)timeval_s.tv_sec * 1000000L + (uint64_t)timeval_s.tv_usec;
+                        ble_gattc_write_no_rsp_flat(peerinfos[0].conn_handle, peerinfos[0].val_handle, &local_ts, sizeof(local_ts));
+                        xSemaphoreGive(printSemaphore);
+                    }
+                    else
+                    {
+                        ESP_LOGE(TAG, "unknown data type");
+                    }
+
                 }
             }
             break;
@@ -90,15 +104,9 @@ void print_time_task(void *pvParameters)
     {
         if (xSemaphoreTake(printSemaphore, portMAX_DELAY))
         {
-            // 延迟随机的毫秒和微秒数目,这里要有微秒级别的延迟，不然保证不了是任意时间放入
-            vTaskDelay(200 + esp_random() % 10);
+            // 延迟随机的毫秒和微秒数目，确保对方收到了
+            vTaskDelay(50 + esp_random() % 10);
             esp_rom_delay_us(esp_random() % 1000);
-            // 将当前时间发出去用于同步
-            gettimeofday(&timeval_s, NULL);
-            int64_t local_ts = (int64_t)timeval_s.tv_sec * 1000000L + (uint64_t)timeval_s.tv_usec;
-            ble_gattc_write_no_rsp_flat(peerinfos[0].conn_handle, peerinfos[0].val_handle, &local_ts, sizeof(local_ts));
-            // 延迟等待对方收到
-            vTaskDelay(50);
             cnt++;
             printf("\n%d sync print begin***********************\n", cnt);
             set_led_state(cnt % 2);

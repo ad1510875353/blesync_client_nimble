@@ -26,7 +26,7 @@ def plot_times(local_times, node1_times):
     delta = [(local_times[i] - node1_times[i]) for i in range(len(local_times))]
     print(delta)
     time_err = np.array(delta)
-    custom_bins = np.arange(1000, 11000, 500)
+    custom_bins = np.arange(-100, 0, 5)
     # 绘制差值的直方图
     plt.style.use("seaborn-v0_8-deep")
     plt.figure(dpi=200)
@@ -39,7 +39,7 @@ def plot_times(local_times, node1_times):
 
 # 主函数
 def main():
-    file_path = 'sync_ntp.txt'  # 替换为你的文件路径
+    file_path = 'sync_notify_event.txt'  # 替换为你的文件路径
     data = read_data_from_file(file_path)
     local_times, node1_times = extract_times(data)
     plot_times(local_times, node1_times)
