@@ -3,22 +3,20 @@
 #include "esp_random.h"
 #include "device.h"
 #include "GPIOcontrol.h"
+#include "esp_rom_sys.h"
 
-int64_t local_ts;
-static int64_t node_ts;
-struct timeval timeval_s;
+static SemaphoreHandle_t printSemaphore; // 用于触发中断的互斥量
+
 struct ConnState connstate;
-static SemaphoreHandle_t printSemaphore;
-
-int64_t cnt = 0;
+struct timeval timeval_s;
 
 volatile int sync_num = 0;
 
 int onConnect(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
+    gettimeofday(&timeval_s, NULL);
     struct ble_gap_conn_desc conn_desc;
     int i = connstate.curr_id;
-    gettimeofday(&timeval_s, NULL);
     ble_gap_conn_find(conn_handle, &conn_desc);
     ESP_LOGI(TAG, "%s connect successed, connect handle=%d, interval=%d",
              peerinfos[i].name, conn_handle, conn_desc.conn_itvl);
@@ -64,33 +62,35 @@ int onSubscribe(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 int onNotifyRx(struct ble_gap_event *event, void *arg, uint16_t conn_handle)
 {
     struct ble_gap_conn_desc conn_desc;
-    for (uint8_t i = 0; i < PROFILE_NUM; i++)
+    for (uint8_t i = 0; i < PROFILE_NUM; i++){
         if (conn_handle == peerinfos[i].conn_handle)
         {
             if (event->notify_rx.attr_handle == peerinfos[i].val_handle)
             {
                 if (OS_MBUF_PKTLEN(event->notify_rx.om) == 8)
                 {
-                    node_ts = *(int64_t *)event->notify_rx.om->om_data; // 刚好是小端存储
+                    int64_t node_ts = *(int64_t *)event->notify_rx.om->om_data; // 刚好是小端存储
                     printf("%s time : %lld\n", peerinfos[i].name, node_ts);
                     xSemaphoreGive(printSemaphore);
                 }
             }
             break;
         }
+    }
     return 0;
 }
 
-// 每20秒或者每2秒产生一次下降沿 以便能够获取时间
+// 每1秒产生一次下降沿 以便能够获取时间
 void print_time_task(void *pvParameters)
 {
+    static int cnt = 0;
     for (;;)
     {
         if (xSemaphoreTake(printSemaphore, portMAX_DELAY))
         {
-            vTaskDelay(2000);
+            vTaskDelay(1000);
             cnt++;
-            printf("\n%lld sync print begin***********************\n", cnt);
+            printf("\n%d sync print begin***********************\n", cnt);
             set_led_state(cnt % 2);
             generate_falling_edge();
         }

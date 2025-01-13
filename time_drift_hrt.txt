@@ -1,0 +1,2400 @@
+
+1 sync print begin***********************
+Local time : 4469647
+Node1 time : 12076344
+
+2 sync print begin***********************
+Local time : 5478642
+Node1 time : 13085350
+
+3 sync print begin***********************
+Local time : 6488657
+Node1 time : 14095373
+
+4 sync print begin***********************
+Local time : 7498659
+Node1 time : 15105380
+
+5 sync print begin***********************
+Local time : 8508657
+Node1 time : 16115381
+
+6 sync print begin***********************
+Local time : 9518657
+Node1 time : 17125383
+
+7 sync print begin***********************
+Local time : 10528654
+Node1 time : 18135391
+
+8 sync print begin***********************
+Local time : 11538654
+Node1 time : 19145389
+
+9 sync print begin***********************
+Local time : 12548644
+Node1 time : 20155385
+
+10 sync print begin***********************
+Local time : 13558659
+Node1 time : 21165407
+
+11 sync print begin***********************
+Local time : 14568658
+Node1 time : 22175407
+
+12 sync print begin***********************
+Local time : 15578660
+Node1 time : 23185412
+
+13 sync print begin***********************
+Local time : 16588658
+Node1 time : 24195420
+
+14 sync print begin***********************
+Local time : 17598658
+Node1 time : 25205418
+
+15 sync print begin***********************
+Local time : 18608657
+Node1 time : 26215422
+
+16 sync print begin***********************
+Local time : 19618660
+Node1 time : 27225433
+
+17 sync print begin***********************
+Local time : 20628648
+Node1 time : 28235422
+
+18 sync print begin***********************
+Local time : 21638652
+Node1 time : 29245429
+
+19 sync print begin***********************
+Local time : 22648654
+Node1 time : 30255441
+
+20 sync print begin***********************
+Local time : 23658660
+Node1 time : 31265445
+
+21 sync print begin***********************
+Local time : 24668658
+Node1 time : 32275448
+
+22 sync print begin***********************
+Local time : 25678658
+Node1 time : 33285456
+
+23 sync print begin***********************
+Local time : 26688658
+Node1 time : 34295457
+
+24 sync print begin***********************
+Local time : 27698660
+Node1 time : 35305462
+
+25 sync print begin***********************
+Local time : 28708648
+Node1 time : 36315460
+
+26 sync print begin***********************
+Local time : 29718652
+Node1 time : 37325462
+
+27 sync print begin***********************
+Local time : 30728648
+Node1 time : 38335463
+
+28 sync print begin***********************
+Local time : 31738660
+Node1 time : 39345483
+
+29 sync print begin***********************
+Local time : 32748658
+Node1 time : 40355482
+
+30 sync print begin***********************
+Local time : 33758676
+Node1 time : 41365502
+
+31 sync print begin***********************
+Local time : 34768668
+Node1 time : 42375497
+
+32 sync print begin***********************
+Local time : 35778666
+Node1 time : 43385501
+
+33 sync print begin***********************
+Local time : 36788651
+Node1 time : 44395492
+
+34 sync print begin***********************
+Local time : 37798674
+Node1 time : 45405522
+
+35 sync print begin***********************
+Local time : 38808670
+Node1 time : 46415519
+
+36 sync print begin***********************
+Local time : 39818666
+Node1 time : 47425517
+
+37 sync print begin***********************
+Local time : 40828660
+Node1 time : 48435522
+
+38 sync print begin***********************
+Local time : 41838658
+Node1 time : 49445518
+
+39 sync print begin***********************
+Local time : 42848657
+Node1 time : 50455523
+
+40 sync print begin***********************
+Local time : 43858664
+Node1 time : 51465537
+
+41 sync print begin***********************
+Local time : 44868658
+Node1 time : 52475532
+
+42 sync print begin***********************
+Local time : 45878658
+Node1 time : 53485535
+
+43 sync print begin***********************
+Local time : 46888658
+Node1 time : 54495546
+
+44 sync print begin***********************
+Local time : 47898670
+Node1 time : 55505553
+
+45 sync print begin***********************
+Local time : 48908658
+Node1 time : 56515549
+
+46 sync print begin***********************
+Local time : 49918658
+Node1 time : 57525557
+
+47 sync print begin***********************
+Local time : 50928658
+Node1 time : 58535557
+
+48 sync print begin***********************
+Local time : 51938664
+Node1 time : 59545566
+
+49 sync print begin***********************
+Local time : 52948657
+Node1 time : 60555570
+
+50 sync print begin***********************
+Local time : 53958658
+Node1 time : 61565568
+
+51 sync print begin***********************
+Local time : 54968653
+Node1 time : 62575569
+
+52 sync print begin***********************
+Local time : 55978664
+Node1 time : 63585588
+
+53 sync print begin***********************
+Local time : 56988651
+Node1 time : 64595576
+
+54 sync print begin***********************
+Local time : 57998659
+Node1 time : 65605585
+
+55 sync print begin***********************
+Local time : 59008658
+Node1 time : 66615596
+
+56 sync print begin***********************
+Local time : 60018664
+Node1 time : 67625599
+
+57 sync print begin***********************
+Local time : 61028657
+Node1 time : 68635598
+
+58 sync print begin***********************
+Local time : 62038657
+Node1 time : 69645605
+
+59 sync print begin***********************
+Local time : 63048652
+Node1 time : 70655602
+
+60 sync print begin***********************
+Local time : 64058664
+Node1 time : 71665616
+
+61 sync print begin***********************
+Local time : 65068660
+Node1 time : 72675623
+
+62 sync print begin***********************
+Local time : 66078660
+Node1 time : 73685621
+
+63 sync print begin***********************
+Local time : 67088660
+Node1 time : 74695626
+
+64 sync print begin***********************
+Local time : 68098666
+Node1 time : 75705640
+
+65 sync print begin***********************
+Local time : 69108660
+Node1 time : 76715635
+
+66 sync print begin***********************
+Local time : 70118658
+Node1 time : 77725636
+
+67 sync print begin***********************
+Local time : 71128658
+Node1 time : 78735646
+
+68 sync print begin***********************
+Local time : 72138666
+Node1 time : 79745652
+
+69 sync print begin***********************
+Local time : 73148661
+Node1 time : 80755653
+
+70 sync print begin***********************
+Local time : 74158660
+Node1 time : 81765660
+
+71 sync print begin***********************
+Local time : 75168660
+Node1 time : 82775660
+
+72 sync print begin***********************
+Local time : 76178666
+Node1 time : 83785669
+
+73 sync print begin***********************
+Local time : 77188660
+Node1 time : 84795674
+
+74 sync print begin***********************
+Local time : 78198658
+Node1 time : 85805669
+
+75 sync print begin***********************
+Local time : 79208665
+Node1 time : 86815682
+
+76 sync print begin***********************
+Local time : 80218660
+Node1 time : 87825685
+
+77 sync print begin***********************
+Local time : 81228660
+Node1 time : 88835685
+
+78 sync print begin***********************
+Local time : 82238661
+Node1 time : 89845689
+
+79 sync print begin***********************
+Local time : 83248665
+Node1 time : 90855704
+
+80 sync print begin***********************
+Local time : 84258660
+Node1 time : 91865697
+
+81 sync print begin***********************
+Local time : 85268660
+Node1 time : 92875702
+
+82 sync print begin***********************
+Local time : 86278658
+Node1 time : 93885708
+
+83 sync print begin***********************
+Local time : 87288665
+Node1 time : 94895716
+
+84 sync print begin***********************
+Local time : 88298660
+Node1 time : 95905714
+
+85 sync print begin***********************
+Local time : 89308660
+Node1 time : 96915724
+
+86 sync print begin***********************
+Local time : 90318660
+Node1 time : 97925722
+
+87 sync print begin***********************
+Local time : 91328665
+Node1 time : 98935733
+
+88 sync print begin***********************
+Local time : 92338661
+Node1 time : 99945736
+
+89 sync print begin***********************
+Local time : 93348660
+Node1 time : 100955736
+
+90 sync print begin***********************
+Local time : 94358660
+Node1 time : 101965739
+
+91 sync print begin***********************
+Local time : 95368665
+Node1 time : 102975755
+
+92 sync print begin***********************
+Local time : 96378661
+Node1 time : 103985748
+
+93 sync print begin***********************
+Local time : 97388660
+Node1 time : 104995753
+
+94 sync print begin***********************
+Local time : 98398660
+Node1 time : 106005761
+
+95 sync print begin***********************
+Local time : 99408665
+Node1 time : 107015767
+
+96 sync print begin***********************
+Local time : 100418661
+Node1 time : 108025764
+
+97 sync print begin***********************
+Local time : 101428660
+Node1 time : 109035776
+
+98 sync print begin***********************
+Local time : 102438658
+Node1 time : 110045771
+
+99 sync print begin***********************
+Local time : 103448665
+Node1 time : 111055784
+
+100 sync print begin***********************
+Local time : 104458662
+Node1 time : 112065788
+
+101 sync print begin***********************
+Local time : 105468662
+Node1 time : 113075791
+
+102 sync print begin***********************
+Local time : 106478662
+Node1 time : 114085791
+
+103 sync print begin***********************
+Local time : 107488668
+Node1 time : 115095809
+
+104 sync print begin***********************
+Local time : 108498662
+Node1 time : 116105799
+
+105 sync print begin***********************
+Local time : 109508661
+Node1 time : 117115805
+
+106 sync print begin***********************
+Local time : 110518662
+Node1 time : 118125813
+
+107 sync print begin***********************
+Local time : 111528668
+Node1 time : 119135821
+
+108 sync print begin***********************
+Local time : 112538662
+Node1 time : 120145817
+
+109 sync print begin***********************
+Local time : 113548661
+Node1 time : 121155827
+
+110 sync print begin***********************
+Local time : 114558662
+Node1 time : 122165825
+
+111 sync print begin***********************
+Local time : 115568668
+Node1 time : 123175838
+
+112 sync print begin***********************
+Local time : 116578662
+Node1 time : 124185838
+
+113 sync print begin***********************
+Local time : 117588661
+Node1 time : 125195839
+
+114 sync print begin***********************
+Local time : 118598662
+Node1 time : 126205842
+
+115 sync print begin***********************
+Local time : 119608668
+Node1 time : 127215860
+
+116 sync print begin***********************
+Local time : 120618662
+Node1 time : 128225850
+
+117 sync print begin***********************
+Local time : 121628661
+Node1 time : 129235856
+
+118 sync print begin***********************
+Local time : 122638663
+Node1 time : 130245865
+
+119 sync print begin***********************
+Local time : 123648668
+Node1 time : 131255872
+
+120 sync print begin***********************
+Local time : 124658662
+Node1 time : 132265867
+
+121 sync print begin***********************
+Local time : 125668661
+Node1 time : 133275878
+
+122 sync print begin***********************
+Local time : 126678662
+Node1 time : 134285876
+
+123 sync print begin***********************
+Local time : 127688668
+Node1 time : 135295888
+
+124 sync print begin***********************
+Local time : 128698662
+Node1 time : 136305889
+
+125 sync print begin***********************
+Local time : 129708661
+Node1 time : 137315896
+
+126 sync print begin***********************
+Local time : 130718662
+Node1 time : 138325894
+
+127 sync print begin***********************
+Local time : 131728668
+Node1 time : 139335910
+
+128 sync print begin***********************
+Local time : 132738662
+Node1 time : 140345901
+
+129 sync print begin***********************
+Local time : 133748661
+Node1 time : 141355906
+
+130 sync print begin***********************
+Local time : 134758662
+Node1 time : 142365915
+
+131 sync print begin***********************
+Local time : 135768668
+Node1 time : 143375922
+
+132 sync print begin***********************
+Local time : 136778662
+Node1 time : 144385918
+
+133 sync print begin***********************
+Local time : 137788661
+Node1 time : 145395928
+
+134 sync print begin***********************
+Local time : 138798662
+Node1 time : 146405927
+
+135 sync print begin***********************
+Local time : 139808668
+Node1 time : 147415939
+
+136 sync print begin***********************
+Local time : 140818662
+Node1 time : 148425940
+
+137 sync print begin***********************
+Local time : 141828661
+Node1 time : 149435940
+
+138 sync print begin***********************
+Local time : 142838662
+Node1 time : 150445944
+
+139 sync print begin***********************
+Local time : 143848668
+Node1 time : 151455961
+
+140 sync print begin***********************
+Local time : 144858662
+Node1 time : 152465952
+
+141 sync print begin***********************
+Local time : 145868661
+Node1 time : 153475957
+
+142 sync print begin***********************
+Local time : 146878662
+Node1 time : 154485965
+
+143 sync print begin***********************
+Local time : 147888668
+Node1 time : 155495973
+
+144 sync print begin***********************
+Local time : 148898663
+Node1 time : 156505970
+
+145 sync print begin***********************
+Local time : 149908661
+Node1 time : 157515979
+
+146 sync print begin***********************
+Local time : 150918662
+Node1 time : 158525977
+
+147 sync print begin***********************
+Local time : 151928668
+Node1 time : 159535990
+
+148 sync print begin***********************
+Local time : 152938662
+Node1 time : 160545991
+
+149 sync print begin***********************
+Local time : 153948661
+Node1 time : 161555991
+
+150 sync print begin***********************
+Local time : 154958662
+Node1 time : 162565994
+
+151 sync print begin***********************
+Local time : 155968668
+Node1 time : 163576012
+
+152 sync print begin***********************
+Local time : 156978662
+Node1 time : 164586003
+
+153 sync print begin***********************
+Local time : 157988662
+Node1 time : 165596009
+
+154 sync print begin***********************
+Local time : 158998662
+Node1 time : 166606016
+
+155 sync print begin***********************
+Local time : 160008668
+Node1 time : 167616024
+
+156 sync print begin***********************
+Local time : 161018662
+Node1 time : 168626020
+
+157 sync print begin***********************
+Local time : 162028662
+Node1 time : 169636031
+
+158 sync print begin***********************
+Local time : 163038662
+Node1 time : 170646028
+
+159 sync print begin***********************
+Local time : 164048668
+Node1 time : 171656041
+
+160 sync print begin***********************
+Local time : 165058662
+Node1 time : 172666042
+
+161 sync print begin***********************
+Local time : 166068661
+Node1 time : 173676041
+
+162 sync print begin***********************
+Local time : 167078662
+Node1 time : 174686046
+
+163 sync print begin***********************
+Local time : 168088665
+Node1 time : 175696059
+
+164 sync print begin***********************
+Local time : 169098658
+Node1 time : 176706050
+
+165 sync print begin***********************
+Local time : 170108657
+Node1 time : 177716055
+
+166 sync print begin***********************
+Local time : 171118662
+Node1 time : 178726068
+
+167 sync print begin***********************
+Local time : 172128665
+Node1 time : 179736071
+
+168 sync print begin***********************
+Local time : 173138661
+Node1 time : 180746071
+
+169 sync print begin***********************
+Local time : 174148661
+Node1 time : 181756080
+
+170 sync print begin***********************
+Local time : 175158662
+Node1 time : 182766080
+
+171 sync print begin***********************
+Local time : 176168665
+Node1 time : 183776088
+
+172 sync print begin***********************
+Local time : 177178658
+Node1 time : 184786089
+
+173 sync print begin***********************
+Local time : 178188657
+Node1 time : 185796089
+
+174 sync print begin***********************
+Local time : 179198666
+Node1 time : 186806100
+
+175 sync print begin***********************
+Local time : 180208661
+Node1 time : 187816107
+
+176 sync print begin***********************
+Local time : 181218661
+Node1 time : 188826105
+
+177 sync print begin***********************
+Local time : 182228661
+Node1 time : 189836109
+
+178 sync print begin***********************
+Local time : 183238666
+Node1 time : 190846122
+
+179 sync print begin***********************
+Local time : 184248657
+Node1 time : 191856114
+
+180 sync print begin***********************
+Local time : 185258658
+Node1 time : 192866118
+
+181 sync print begin***********************
+Local time : 186268657
+Node1 time : 193876128
+
+182 sync print begin***********************
+Local time : 187278666
+Node1 time : 194886134
+
+183 sync print begin***********************
+Local time : 188288661
+Node1 time : 195896135
+
+184 sync print begin***********************
+Local time : 189298662
+Node1 time : 196906145
+
+185 sync print begin***********************
+Local time : 190308661
+Node1 time : 197916143
+
+186 sync print begin***********************
+Local time : 191318666
+Node1 time : 198926152
+
+187 sync print begin***********************
+Local time : 192328657
+Node1 time : 199936153
+
+188 sync print begin***********************
+Local time : 193338658
+Node1 time : 200946152
+
+189 sync print begin***********************
+Local time : 194348657
+Node1 time : 201956156
+
+190 sync print begin***********************
+Local time : 195358666
+Node1 time : 202966173
+
+191 sync print begin***********************
+Local time : 196368661
+Node1 time : 203976168
+
+192 sync print begin***********************
+Local time : 197378662
+Node1 time : 204986173
+
+193 sync print begin***********************
+Local time : 198388662
+Node1 time : 205996183
+
+194 sync print begin***********************
+Local time : 199398666
+Node1 time : 207006185
+
+195 sync print begin***********************
+Local time : 200408657
+Node1 time : 208016182
+
+196 sync print begin***********************
+Local time : 201418658
+Node1 time : 209026191
+
+197 sync print begin***********************
+Local time : 202428657
+Node1 time : 210036190
+
+198 sync print begin***********************
+Local time : 203438666
+Node1 time : 211046202
+
+199 sync print begin***********************
+Local time : 204448661
+Node1 time : 212056207
+
+200 sync print begin***********************
+Local time : 205458661
+Node1 time : 213066206
+
+201 sync print begin***********************
+Local time : 206468661
+Node1 time : 214076213
+
+202 sync print begin***********************
+Local time : 207478666
+Node1 time : 215086224
+
+203 sync print begin***********************
+Local time : 208488657
+Node1 time : 216096216
+
+204 sync print begin***********************
+Local time : 209498658
+Node1 time : 217106220
+
+205 sync print begin***********************
+Local time : 210508661
+Node1 time : 218116233
+
+206 sync print begin***********************
+Local time : 211518666
+Node1 time : 219126236
+
+207 sync print begin***********************
+Local time : 212528661
+Node1 time : 220136236
+
+208 sync print begin***********************
+Local time : 213538661
+Node1 time : 221146245
+
+209 sync print begin***********************
+Local time : 214548661
+Node1 time : 222156244
+
+210 sync print begin***********************
+Local time : 215558666
+Node1 time : 223166253
+
+211 sync print begin***********************
+Local time : 216568657
+Node1 time : 224176254
+
+212 sync print begin***********************
+Local time : 217578658
+Node1 time : 225186253
+
+213 sync print begin***********************
+Local time : 218588661
+Node1 time : 226196261
+
+214 sync print begin***********************
+Local time : 219598666
+Node1 time : 227206275
+
+215 sync print begin***********************
+Local time : 220608662
+Node1 time : 228216271
+
+216 sync print begin***********************
+Local time : 221618661
+Node1 time : 229226274
+
+217 sync print begin***********************
+Local time : 222628661
+Node1 time : 230236283
+
+218 sync print begin***********************
+Local time : 223638666
+Node1 time : 231246286
+
+219 sync print begin***********************
+Local time : 224648657
+Node1 time : 232256283
+
+220 sync print begin***********************
+Local time : 225658658
+Node1 time : 233266292
+
+221 sync print begin***********************
+Local time : 226668676
+Node1 time : 234276310
+
+222 sync print begin***********************
+Local time : 227678673
+Node1 time : 235286310
+
+223 sync print begin***********************
+Local time : 228688665
+Node1 time : 236296313
+
+224 sync print begin***********************
+Local time : 229698662
+Node1 time : 237306309
+
+225 sync print begin***********************
+Local time : 230708661
+Node1 time : 238316312
+
+226 sync print begin***********************
+Local time : 231718666
+Node1 time : 239326325
+
+227 sync print begin***********************
+Local time : 232728661
+Node1 time : 240336320
+
+228 sync print begin***********************
+Local time : 233738662
+Node1 time : 241346325
+
+229 sync print begin***********************
+Local time : 234748661
+Node1 time : 242356334
+
+230 sync print begin***********************
+Local time : 235758666
+Node1 time : 243366337
+
+231 sync print begin***********************
+Local time : 236768661
+Node1 time : 244376337
+
+232 sync print begin***********************
+Local time : 237778662
+Node1 time : 245386347
+
+233 sync print begin***********************
+Local time : 238788662
+Node1 time : 246396347
+
+234 sync print begin***********************
+Local time : 239798666
+Node1 time : 247406354
+
+235 sync print begin***********************
+Local time : 240808661
+Node1 time : 248416359
+
+236 sync print begin***********************
+Local time : 241818661
+Node1 time : 249426358
+
+237 sync print begin***********************
+Local time : 242828657
+Node1 time : 250436359
+
+238 sync print begin***********************
+Local time : 243838666
+Node1 time : 251446376
+
+239 sync print begin***********************
+Local time : 244848657
+Node1 time : 252456368
+
+240 sync print begin***********************
+Local time : 245858661
+Node1 time : 253466375
+
+241 sync print begin***********************
+Local time : 246868661
+Node1 time : 254476385
+
+242 sync print begin***********************
+Local time : 247878666
+Node1 time : 255486388
+
+243 sync print begin***********************
+Local time : 248888661
+Node1 time : 256496388
+
+244 sync print begin***********************
+Local time : 249898658
+Node1 time : 257506394
+
+245 sync print begin***********************
+Local time : 250908657
+Node1 time : 258516393
+
+246 sync print begin***********************
+Local time : 251918666
+Node1 time : 259526405
+
+247 sync print begin***********************
+Local time : 252928661
+Node1 time : 260536410
+
+248 sync print begin***********************
+Local time : 253938661
+Node1 time : 261546409
+
+249 sync print begin***********************
+Local time : 254948661
+Node1 time : 262556413
+
+250 sync print begin***********************
+Local time : 255958666
+Node1 time : 263566427
+
+251 sync print begin***********************
+Local time : 256968661
+Node1 time : 264576422
+
+252 sync print begin***********************
+Local time : 257978658
+Node1 time : 265586422
+
+253 sync print begin***********************
+Local time : 258988657
+Node1 time : 266596432
+
+254 sync print begin***********************
+Local time : 259998666
+Node1 time : 267606439
+
+255 sync print begin***********************
+Local time : 261008662
+Node1 time : 268616440
+
+256 sync print begin***********************
+Local time : 262018661
+Node1 time : 269626448
+
+257 sync print begin***********************
+Local time : 263028661
+Node1 time : 270636447
+
+258 sync print begin***********************
+Local time : 264038666
+Node1 time : 271646456
+
+259 sync print begin***********************
+Local time : 265048661
+Node1 time : 272656461
+
+260 sync print begin***********************
+Local time : 266058658
+Node1 time : 273666456
+
+261 sync print begin***********************
+Local time : 267068657
+Node1 time : 274676461
+
+262 sync print begin***********************
+Local time : 268078666
+Node1 time : 275686477
+
+263 sync print begin***********************
+Local time : 269088661
+Node1 time : 276696474
+
+264 sync print begin***********************
+Local time : 270098661
+Node1 time : 277706477
+
+265 sync print begin***********************
+Local time : 271108661
+Node1 time : 278716486
+
+266 sync print begin***********************
+Local time : 272118666
+Node1 time : 279726489
+
+267 sync print begin***********************
+Local time : 273128660
+Node1 time : 280736489
+
+268 sync print begin***********************
+Local time : 274138658
+Node1 time : 281746495
+
+269 sync print begin***********************
+Local time : 275148657
+Node1 time : 282756495
+
+270 sync print begin***********************
+Local time : 276158666
+Node1 time : 283766506
+
+271 sync print begin***********************
+Local time : 277168661
+Node1 time : 284776512
+
+272 sync print begin***********************
+Local time : 278178662
+Node1 time : 285786512
+
+273 sync print begin***********************
+Local time : 279188665
+Node1 time : 286796519
+
+274 sync print begin***********************
+Local time : 280198661
+Node1 time : 287806524
+
+275 sync print begin***********************
+Local time : 281208659
+Node1 time : 288816522
+
+276 sync print begin***********************
+Local time : 282218659
+Node1 time : 289826525
+
+277 sync print begin***********************
+Local time : 283228665
+Node1 time : 290836541
+
+278 sync print begin***********************
+Local time : 284238661
+Node1 time : 291846536
+
+279 sync print begin***********************
+Local time : 285248661
+Node1 time : 292856540
+
+280 sync print begin***********************
+Local time : 286258662
+Node1 time : 293866550
+
+281 sync print begin***********************
+Local time : 287268665
+Node1 time : 294876553
+
+282 sync print begin***********************
+Local time : 288278661
+Node1 time : 295886553
+
+283 sync print begin***********************
+Local time : 289288659
+Node1 time : 296896561
+
+284 sync print begin***********************
+Local time : 290298658
+Node1 time : 297906558
+
+285 sync print begin***********************
+Local time : 291308665
+Node1 time : 298916570
+
+286 sync print begin***********************
+Local time : 292318661
+Node1 time : 299926575
+
+287 sync print begin***********************
+Local time : 293328661
+Node1 time : 300936574
+
+288 sync print begin***********************
+Local time : 294338662
+Node1 time : 301946579
+
+289 sync print begin***********************
+Local time : 295348665
+Node1 time : 302956592
+
+290 sync print begin***********************
+Local time : 296358661
+Node1 time : 303966587
+
+291 sync print begin***********************
+Local time : 297368658
+Node1 time : 304976589
+
+292 sync print begin***********************
+Local time : 298378658
+Node1 time : 305986597
+
+293 sync print begin***********************
+Local time : 299388665
+Node1 time : 306996604
+
+294 sync print begin***********************
+Local time : 300398661
+Node1 time : 308006604
+
+295 sync print begin***********************
+Local time : 301408661
+Node1 time : 309016613
+
+296 sync print begin***********************
+Local time : 302418661
+Node1 time : 310026612
+
+297 sync print begin***********************
+Local time : 303428665
+Node1 time : 311036621
+
+298 sync print begin***********************
+Local time : 304438662
+Node1 time : 312046627
+
+299 sync print begin***********************
+Local time : 305448658
+Node1 time : 313056622
+
+300 sync print begin***********************
+Local time : 306458658
+Node1 time : 314066626
+
+301 sync print begin***********************
+Local time : 307468665
+Node1 time : 315076644
+
+302 sync print begin***********************
+Local time : 308478662
+Node1 time : 316086639
+
+303 sync print begin***********************
+Local time : 309488661
+Node1 time : 317096642
+
+304 sync print begin***********************
+Local time : 310498661
+Node1 time : 318106651
+
+305 sync print begin***********************
+Local time : 311508665
+Node1 time : 319116655
+
+306 sync print begin***********************
+Local time : 312518662
+Node1 time : 320126655
+
+307 sync print begin***********************
+Local time : 313528658
+Node1 time : 321136661
+
+308 sync print begin***********************
+Local time : 314538658
+Node1 time : 322146659
+
+309 sync print begin***********************
+Local time : 315548665
+Node1 time : 323156672
+
+310 sync print begin***********************
+Local time : 316558662
+Node1 time : 324166677
+
+311 sync print begin***********************
+Local time : 317568662
+Node1 time : 325176677
+
+312 sync print begin***********************
+Local time : 318578661
+Node1 time : 326186680
+
+313 sync print begin***********************
+Local time : 319588665
+Node1 time : 327196694
+
+314 sync print begin***********************
+Local time : 320598662
+Node1 time : 328206689
+
+315 sync print begin***********************
+Local time : 321608658
+Node1 time : 329216690
+
+316 sync print begin***********************
+Local time : 322618658
+Node1 time : 330226698
+
+317 sync print begin***********************
+Local time : 323628665
+Node1 time : 331236705
+
+318 sync print begin***********************
+Local time : 324638662
+Node1 time : 332246706
+
+319 sync print begin***********************
+Local time : 325648662
+Node1 time : 333256716
+
+320 sync print begin***********************
+Local time : 326658661
+Node1 time : 334266714
+
+321 sync print begin***********************
+Local time : 327668665
+Node1 time : 335276722
+
+322 sync print begin***********************
+Local time : 328678661
+Node1 time : 336286727
+
+323 sync print begin***********************
+Local time : 329688657
+Node1 time : 337296723
+
+324 sync print begin***********************
+Local time : 330698658
+Node1 time : 338306727
+
+325 sync print begin***********************
+Local time : 331708665
+Node1 time : 339316744
+
+326 sync print begin***********************
+Local time : 332718661
+Node1 time : 340326739
+
+327 sync print begin***********************
+Local time : 333728661
+Node1 time : 341336745
+
+328 sync print begin***********************
+Local time : 334738661
+Node1 time : 342346753
+
+329 sync print begin***********************
+Local time : 335748665
+Node1 time : 343356756
+
+330 sync print begin***********************
+Local time : 336758661
+Node1 time : 344366756
+
+331 sync print begin***********************
+Local time : 337768661
+Node1 time : 345376767
+
+332 sync print begin***********************
+Local time : 338778658
+Node1 time : 346386761
+
+333 sync print begin***********************
+Local time : 339788665
+Node1 time : 347396773
+
+334 sync print begin***********************
+Local time : 340798658
+Node1 time : 348406775
+
+335 sync print begin***********************
+Local time : 341808661
+Node1 time : 349416778
+
+336 sync print begin***********************
+Local time : 342818662
+Node1 time : 350426783
+
+337 sync print begin***********************
+Local time : 343828665
+Node1 time : 351436795
+
+338 sync print begin***********************
+Local time : 344838661
+Node1 time : 352446790
+
+339 sync print begin***********************
+Local time : 345848661
+Node1 time : 353456795
+
+340 sync print begin***********************
+Local time : 346858658
+Node1 time : 354466800
+
+341 sync print begin***********************
+Local time : 347868665
+Node1 time : 355476807
+
+342 sync print begin***********************
+Local time : 348878658
+Node1 time : 356486804
+
+343 sync print begin***********************
+Local time : 349888661
+Node1 time : 357496816
+
+344 sync print begin***********************
+Local time : 350898662
+Node1 time : 358506816
+
+345 sync print begin***********************
+Local time : 351908665
+Node1 time : 359516824
+
+346 sync print begin***********************
+Local time : 352918661
+Node1 time : 360526829
+
+347 sync print begin***********************
+Local time : 353928661
+Node1 time : 361536828
+
+348 sync print begin***********************
+Local time : 354938658
+Node1 time : 362546829
+
+349 sync print begin***********************
+Local time : 355948665
+Node1 time : 363556846
+
+350 sync print begin***********************
+Local time : 356958658
+Node1 time : 364566837
+
+351 sync print begin***********************
+Local time : 357968661
+Node1 time : 365576845
+
+352 sync print begin***********************
+Local time : 358978662
+Node1 time : 366586855
+
+353 sync print begin***********************
+Local time : 359988665
+Node1 time : 367596858
+
+354 sync print begin***********************
+Local time : 360998661
+Node1 time : 368606858
+
+355 sync print begin***********************
+Local time : 362008661
+Node1 time : 369616867
+
+356 sync print begin***********************
+Local time : 363018658
+Node1 time : 370626863
+
+357 sync print begin***********************
+Local time : 364028665
+Node1 time : 371636875
+
+358 sync print begin***********************
+Local time : 365038658
+Node1 time : 372646876
+
+359 sync print begin***********************
+Local time : 366048661
+Node1 time : 373656879
+
+360 sync print begin***********************
+Local time : 367058661
+Node1 time : 374666883
+
+361 sync print begin***********************
+Local time : 368068665
+Node1 time : 375676901
+
+362 sync print begin***********************
+Local time : 369078661
+Node1 time : 376686895
+
+363 sync print begin***********************
+Local time : 370088661
+Node1 time : 377696896
+
+364 sync print begin***********************
+Local time : 371098658
+Node1 time : 378706902
+
+365 sync print begin***********************
+Local time : 372108665
+Node1 time : 379716909
+
+366 sync print begin***********************
+Local time : 373118658
+Node1 time : 380726905
+
+367 sync print begin***********************
+Local time : 374128661
+Node1 time : 381736918
+
+368 sync print begin***********************
+Local time : 375138661
+Node1 time : 382746917
+
+369 sync print begin***********************
+Local time : 376148665
+Node1 time : 383756926
+
+370 sync print begin***********************
+Local time : 377158662
+Node1 time : 384766932
+
+371 sync print begin***********************
+Local time : 378168661
+Node1 time : 385776930
+
+372 sync print begin***********************
+Local time : 379178658
+Node1 time : 386786931
+
+373 sync print begin***********************
+Local time : 380188657
+Node1 time : 387796940
+
+374 sync print begin***********************
+Local time : 381198658
+Node1 time : 388806939
+
+375 sync print begin***********************
+Local time : 382208661
+Node1 time : 389816947
+
+376 sync print begin***********************
+Local time : 383218666
+Node1 time : 390826960
+
+377 sync print begin***********************
+Local time : 384228661
+Node1 time : 391836955
+
+378 sync print begin***********************
+Local time : 385238662
+Node1 time : 392846960
+
+379 sync print begin***********************
+Local time : 386248662
+Node1 time : 393856970
+
+380 sync print begin***********************
+Local time : 387258666
+Node1 time : 394866972
+
+381 sync print begin***********************
+Local time : 388268657
+Node1 time : 395876969
+
+382 sync print begin***********************
+Local time : 389278658
+Node1 time : 396886978
+
+383 sync print begin***********************
+Local time : 390288661
+Node1 time : 397896982
+
+384 sync print begin***********************
+Local time : 391298666
+Node1 time : 398906989
+
+385 sync print begin***********************
+Local time : 392308661
+Node1 time : 399916994
+
+386 sync print begin***********************
+Local time : 393318661
+Node1 time : 400926993
+
+387 sync print begin***********************
+Local time : 394328661
+Node1 time : 401936999
+
+388 sync print begin***********************
+Local time : 395338666
+Node1 time : 402947011
+
+389 sync print begin***********************
+Local time : 396348657
+Node1 time : 403957003
+
+390 sync print begin***********************
+Local time : 397358658
+Node1 time : 404967007
+
+391 sync print begin***********************
+Local time : 398368661
+Node1 time : 405977020
+
+392 sync print begin***********************
+Local time : 399378666
+Node1 time : 406987023
+
+393 sync print begin***********************
+Local time : 400388661
+Node1 time : 407997023
+
+394 sync print begin***********************
+Local time : 401398661
+Node1 time : 409007032
+
+395 sync print begin***********************
+Local time : 402408661
+Node1 time : 410017032
+
+396 sync print begin***********************
+Local time : 403418666
+Node1 time : 411027040
+
+397 sync print begin***********************
+Local time : 404428657
+Node1 time : 412037042
+
+398 sync print begin***********************
+Local time : 405438658
+Node1 time : 413047041
+
+399 sync print begin***********************
+Local time : 406448661
+Node1 time : 414057049
+
+400 sync print begin***********************
+Local time : 407458666
+Node1 time : 415067062
+
+401 sync print begin***********************
+Local time : 408468661
+Node1 time : 416077059
+
+402 sync print begin***********************
+Local time : 409478661
+Node1 time : 417087061
+
+403 sync print begin***********************
+Local time : 410488661
+Node1 time : 418097071
+
+404 sync print begin***********************
+Local time : 411498666
+Node1 time : 419107074
+
+405 sync print begin***********************
+Local time : 412508657
+Node1 time : 420117071
+
+406 sync print begin***********************
+Local time : 413518658
+Node1 time : 421127080
+
+407 sync print begin***********************
+Local time : 414528672
+Node1 time : 422137094
+
+408 sync print begin***********************
+Local time : 415538670
+Node1 time : 423147095
+
+409 sync print begin***********************
+Local time : 416548662
+Node1 time : 424157097
+
+410 sync print begin***********************
+Local time : 417558661
+Node1 time : 425167095
+
+411 sync print begin***********************
+Local time : 418568661
+Node1 time : 426177100
+
+412 sync print begin***********************
+Local time : 419578666
+Node1 time : 427187113
+
+413 sync print begin***********************
+Local time : 420588661
+Node1 time : 428197108
+
+414 sync print begin***********************
+Local time : 421598661
+Node1 time : 429207112
+
+415 sync print begin***********************
+Local time : 422608661
+Node1 time : 430217122
+
+416 sync print begin***********************
+Local time : 423618666
+Node1 time : 431227125
+
+417 sync print begin***********************
+Local time : 424628661
+Node1 time : 432237125
+
+418 sync print begin***********************
+Local time : 425638661
+Node1 time : 433247134
+
+419 sync print begin***********************
+Local time : 426648661
+Node1 time : 434257134
+
+420 sync print begin***********************
+Local time : 427658666
+Node1 time : 435267142
+
+421 sync print begin***********************
+Local time : 428668661
+Node1 time : 436277147
+
+422 sync print begin***********************
+Local time : 429678661
+Node1 time : 437287146
+
+423 sync print begin***********************
+Local time : 430688657
+Node1 time : 438297147
+
+424 sync print begin***********************
+Local time : 431698666
+Node1 time : 439307164
+
+425 sync print begin***********************
+Local time : 432708661
+Node1 time : 440317159
+
+426 sync print begin***********************
+Local time : 433718661
+Node1 time : 441327163
+
+427 sync print begin***********************
+Local time : 434728661
+Node1 time : 442337173
+
+428 sync print begin***********************
+Local time : 435738666
+Node1 time : 443347176
+
+429 sync print begin***********************
+Local time : 436748660
+Node1 time : 444357175
+
+430 sync print begin***********************
+Local time : 437758658
+Node1 time : 445367182
+
+431 sync print begin***********************
+Local time : 438768657
+Node1 time : 446377181
+
+432 sync print begin***********************
+Local time : 439778666
+Node1 time : 447387193
+
+433 sync print begin***********************
+Local time : 440788661
+Node1 time : 448397198
+
+434 sync print begin***********************
+Local time : 441798661
+Node1 time : 449407197
+
+435 sync print begin***********************
+Local time : 442808661
+Node1 time : 450417201
+
+436 sync print begin***********************
+Local time : 443818666
+Node1 time : 451427215
+
+437 sync print begin***********************
+Local time : 444828660
+Node1 time : 452437209
+
+438 sync print begin***********************
+Local time : 445838658
+Node1 time : 453447210
+
+439 sync print begin***********************
+Local time : 446848657
+Node1 time : 454457220
+
+440 sync print begin***********************
+Local time : 447858666
+Node1 time : 455467227
+
+441 sync print begin***********************
+Local time : 448868661
+Node1 time : 456477227
+
+442 sync print begin***********************
+Local time : 449878661
+Node1 time : 457487236
+
+443 sync print begin***********************
+Local time : 450888661
+Node1 time : 458497235
+
+444 sync print begin***********************
+Local time : 451898666
+Node1 time : 459507244
+
+445 sync print begin***********************
+Local time : 452908661
+Node1 time : 460517249
+
+446 sync print begin***********************
+Local time : 453918658
+Node1 time : 461527244
+
+447 sync print begin***********************
+Local time : 454928657
+Node1 time : 462537249
+
+448 sync print begin***********************
+Local time : 455938666
+Node1 time : 463547266
+
+449 sync print begin***********************
+Local time : 456948661
+Node1 time : 464557261
+
+450 sync print begin***********************
+Local time : 457958661
+Node1 time : 465567265
+
+451 sync print begin***********************
+Local time : 458968661
+Node1 time : 466577274
+
+452 sync print begin***********************
+Local time : 459978666
+Node1 time : 467587278
+
+453 sync print begin***********************
+Local time : 460988661
+Node1 time : 468597278
+
+454 sync print begin***********************
+Local time : 461998658
+Node1 time : 469607283
+
+455 sync print begin***********************
+Local time : 463008657
+Node1 time : 470617283
+
+456 sync print begin***********************
+Local time : 464018666
+Node1 time : 471627295
+
+457 sync print begin***********************
+Local time : 465028661
+Node1 time : 472637300
+
+458 sync print begin***********************
+Local time : 466038661
+Node1 time : 473647299
+
+459 sync print begin***********************
+Local time : 467048661
+Node1 time : 474657303
+
+460 sync print begin***********************
+Local time : 468058666
+Node1 time : 475667317
+
+461 sync print begin***********************
+Local time : 469068661
+Node1 time : 476677312
+
+462 sync print begin***********************
+Local time : 470078658
+Node1 time : 477687312
+
+463 sync print begin***********************
+Local time : 471088657
+Node1 time : 478697322
+
+464 sync print begin***********************
+Local time : 472098666
+Node1 time : 479707329
+
+465 sync print begin***********************
+Local time : 473108661
+Node1 time : 480717329
+
+466 sync print begin***********************
+Local time : 474118661
+Node1 time : 481727338
+
+467 sync print begin***********************
+Local time : 475128661
+Node1 time : 482737337
+
+468 sync print begin***********************
+Local time : 476138666
+Node1 time : 483747346
+
+469 sync print begin***********************
+Local time : 477148661
+Node1 time : 484757351
+
+470 sync print begin***********************
+Local time : 478158658
+Node1 time : 485767347
+
+471 sync print begin***********************
+Local time : 479168657
+Node1 time : 486777351
+
+472 sync print begin***********************
+Local time : 480178666
+Node1 time : 487787368
+
+473 sync print begin***********************
+Local time : 481188661
+Node1 time : 488797363
+
+474 sync print begin***********************
+Local time : 482198661
+Node1 time : 489807367
+
+475 sync print begin***********************
+Local time : 483208665
+Node1 time : 490817381
+
+476 sync print begin***********************
+Local time : 484218662
+Node1 time : 491827376
+
+477 sync print begin***********************
+Local time : 485228661
+Node1 time : 492837380
+
+478 sync print begin***********************
+Local time : 486238658
+Node1 time : 493847386
+
+479 sync print begin***********************
+Local time : 487248665
+Node1 time : 494857393
+
+480 sync print begin***********************
+Local time : 488258662
+Node1 time : 495867394
+
+481 sync print begin***********************
+Local time : 489268661
+Node1 time : 496877402
+
+482 sync print begin***********************
+Local time : 490278661
+Node1 time : 497887401
+
+483 sync print begin***********************
+Local time : 491288665
+Node1 time : 498897410
+
+484 sync print begin***********************
+Local time : 492298662
+Node1 time : 499907416
+
+485 sync print begin***********************
+Local time : 493308661
+Node1 time : 500917414
+
+486 sync print begin***********************
+Local time : 494318658
+Node1 time : 501927415
+
+487 sync print begin***********************
+Local time : 495328665
+Node1 time : 502937432
+
+488 sync print begin***********************
+Local time : 496338662
+Node1 time : 503947428
+
+489 sync print begin***********************
+Local time : 497348661
+Node1 time : 504957431
+
+490 sync print begin***********************
+Local time : 498358661
+Node1 time : 505967440
+
+491 sync print begin***********************
+Local time : 499368665
+Node1 time : 506977444
+
+492 sync print begin***********************
+Local time : 500378662
+Node1 time : 507987445
+
+493 sync print begin***********************
+Local time : 501388661
+Node1 time : 508997453
+
+494 sync print begin***********************
+Local time : 502398658
+Node1 time : 510007449
+
+495 sync print begin***********************
+Local time : 503408665
+Node1 time : 511017461
+
+496 sync print begin***********************
+Local time : 504418658
+Node1 time : 512027462
+
+497 sync print begin***********************
+Local time : 505428661
+Node1 time : 513037465
+
+498 sync print begin***********************
+Local time : 506438661
+Node1 time : 514047469
+
+499 sync print begin***********************
+Local time : 507448665
+Node1 time : 515057483
+
+500 sync print begin***********************
+Local time : 508458662
+Node1 time : 516067479
+
+501 sync print begin***********************
+Local time : 509468661
+Node1 time : 517077484
+
+502 sync print begin***********************
+Local time : 510478658
+Node1 time : 518087488
+
+503 sync print begin***********************
+Local time : 511488665
+Node1 time : 519097495
+
+504 sync print begin***********************
+Local time : 512498658
+Node1 time : 520107491
+
+505 sync print begin***********************
+Local time : 513508661
+Node1 time : 521117504
+
+506 sync print begin***********************
+Local time : 514518661
+Node1 time : 522127503
+
+507 sync print begin***********************
+Local time : 515528665
+Node1 time : 523137512
+
+508 sync print begin***********************
+Local time : 516538662
+Node1 time : 524147517
+
+509 sync print begin***********************
+Local time : 517548661
+Node1 time : 525157516
+
+510 sync print begin***********************
+Local time : 518558658
+Node1 time : 526167517
+
+511 sync print begin***********************
+Local time : 519568665
+Node1 time : 527177534
+
+512 sync print begin***********************
+Local time : 520578658
+Node1 time : 528187525
+
+513 sync print begin***********************
+Local time : 521588661
+Node1 time : 529197533
+
+514 sync print begin***********************
+Local time : 522598661
+Node1 time : 530207542
+
+515 sync print begin***********************
+Local time : 523608665
+Node1 time : 531217546
+
+516 sync print begin***********************
+Local time : 524618662
+Node1 time : 532227546
+
+517 sync print begin***********************
+Local time : 525628661
+Node1 time : 533237555
+
+518 sync print begin***********************
+Local time : 526638661
+Node1 time : 534247554
+
+519 sync print begin***********************
+Local time : 527648665
+Node1 time : 535257563
+
+520 sync print begin***********************
+Local time : 528658658
+Node1 time : 536267564
+
+521 sync print begin***********************
+Local time : 529668657
+Node1 time : 537277563
+
+522 sync print begin***********************
+Local time : 530678661
+Node1 time : 538287571
+
+523 sync print begin***********************
+Local time : 531688665
+Node1 time : 539297585
+
+524 sync print begin***********************
+Local time : 532698662
+Node1 time : 540307580
+
+525 sync print begin***********************
+Local time : 533708661
+Node1 time : 541317584
+
+526 sync print begin***********************
+Local time : 534718661
+Node1 time : 542327593
+
+527 sync print begin***********************
+Local time : 535728665
+Node1 time : 543337597
+
+528 sync print begin***********************
+Local time : 536738658
+Node1 time : 544347593
+
+529 sync print begin***********************
+Local time : 537748657
+Node1 time : 545357602
+
+530 sync print begin***********************
+Local time : 538758661
+Node1 time : 546367605
+
+531 sync print begin***********************
+Local time : 539768665
+Node1 time : 547377614
+
+532 sync print begin***********************
+Local time : 540778662
+Node1 time : 548387619
+
+533 sync print begin***********************
+Local time : 541788661
+Node1 time : 549397618
+
+534 sync print begin***********************
+Local time : 542798661
+Node1 time : 550407622
+
+535 sync print begin***********************
+Local time : 543808665
+Node1 time : 551417636
+
+536 sync print begin***********************
+Local time : 544818658
+Node1 time : 552427627
+
+537 sync print begin***********************
+Local time : 545828657
+Node1 time : 553437631
+
+538 sync print begin***********************
+Local time : 546838661
+Node1 time : 554447644
+
+539 sync print begin***********************
+Local time : 547848665
+Node1 time : 555457648
+
+540 sync print begin***********************
+Local time : 548858662
+Node1 time : 556467648
+
+541 sync print begin***********************
+Local time : 549868661
+Node1 time : 557477657
+
+542 sync print begin***********************
+Local time : 550878661
+Node1 time : 558487656
+
+543 sync print begin***********************
+Local time : 551888665
+Node1 time : 559497665
+
+544 sync print begin***********************
+Local time : 552898658
+Node1 time : 560507666
+
+545 sync print begin***********************
+Local time : 553908657
+Node1 time : 561517665
+
+546 sync print begin***********************
+Local time : 554918661
+Node1 time : 562527673
+
+547 sync print begin***********************
+Local time : 555928665
+Node1 time : 563537687
+
+548 sync print begin***********************
+Local time : 556938662
+Node1 time : 564547682
+
+549 sync print begin***********************
+Local time : 557948661
+Node1 time : 565557686
+
+550 sync print begin***********************
+Local time : 558958661
+Node1 time : 566567695
+
+551 sync print begin***********************
+Local time : 559968665
+Node1 time : 567577699
+
+552 sync print begin***********************
+Local time : 560978658
+Node1 time : 568587695
+
+553 sync print begin***********************
+Local time : 561988657
+Node1 time : 569597704
+
+554 sync print begin***********************
+Local time : 562998661
+Node1 time : 570607707
+
+555 sync print begin***********************
+Local time : 564008665
+Node1 time : 571617716
+
+556 sync print begin***********************
+Local time : 565018662
+Node1 time : 572627721
+
+557 sync print begin***********************
+Local time : 566028661
+Node1 time : 573637720
+
+558 sync print begin***********************
+Local time : 567038661
+Node1 time : 574647724
+
+559 sync print begin***********************
+Local time : 568048665
+Node1 time : 575657738
+
+560 sync print begin***********************
+Local time : 569058658
+Node1 time : 576667729
+
+561 sync print begin***********************
+Local time : 570068657
+Node1 time : 577677733
+
+562 sync print begin***********************
+Local time : 571078661
+Node1 time : 578687746
+
+563 sync print begin***********************
+Local time : 572088665
+Node1 time : 579697750
+
+564 sync print begin***********************
+Local time : 573098662
+Node1 time : 580707750
+
+565 sync print begin***********************
+Local time : 574108661
+Node1 time : 581717759
+
+566 sync print begin***********************
+Local time : 575118661
+Node1 time : 582727758
+
+567 sync print begin***********************
+Local time : 576128665
+Node1 time : 583737767
+
+568 sync print begin***********************
+Local time : 577138658
+Node1 time : 584747768
+
+569 sync print begin***********************
+Local time : 578148657
+Node1 time : 585757767
+
+570 sync print begin***********************
+Local time : 579158661
+Node1 time : 586767775
+
+571 sync print begin***********************
+Local time : 580168665
+Node1 time : 587777789
+
+572 sync print begin***********************
+Local time : 581178662
+Node1 time : 588787784
+
+573 sync print begin***********************
+Local time : 582188661
+Node1 time : 589797788
+
+574 sync print begin***********************
+Local time : 583198666
+Node1 time : 590807801
+
+575 sync print begin***********************
+Local time : 584208658
+Node1 time : 591817794
+
+576 sync print begin***********************
+Local time : 585218658
+Node1 time : 592827797
+
+577 sync print begin***********************
+Local time : 586228657
+Node1 time : 593837806
+
+578 sync print begin***********************
+Local time : 587238666
+Node1 time : 594847813
+
+579 sync print begin***********************
+Local time : 588248661
+Node1 time : 595857813
+
+580 sync print begin***********************
+Local time : 589258662
+Node1 time : 596867823
+
+581 sync print begin***********************
+Local time : 590268662
+Node1 time : 597877823
+
+582 sync print begin***********************
+Local time : 591278666
+Node1 time : 598887830
+
+583 sync print begin***********************
+Local time : 592288658
+Node1 time : 599897833
+
+584 sync print begin***********************
+Local time : 593298658
+Node1 time : 600907831
+
+585 sync print begin***********************
+Local time : 594308657
+Node1 time : 601917835
+
+586 sync print begin***********************
+Local time : 595318666
+Node1 time : 602927852
+
+587 sync print begin***********************
+Local time : 596328661
+Node1 time : 603937847
+
+588 sync print begin***********************
+Local time : 597338662
+Node1 time : 604947852
+
+589 sync print begin***********************
+Local time : 598348661
+Node1 time : 605957861
+
+590 sync print begin***********************
+Local time : 599358666
+Node1 time : 606967864
+
+591 sync print begin***********************
+Local time : 600368658
+Node1 time : 607977862
+
+592 sync print begin***********************
+Local time : 601378658
+Node1 time : 608987870
+
+593 sync print begin***********************
+Local time : 602388657
+Node1 time : 609997869
+
+594 sync print begin***********************
+Local time : 603398674
+Node1 time : 611007895
+
+595 sync print begin***********************
+Local time : 604408666
+Node1 time : 612017892
+
+596 sync print begin***********************
+Local time : 605418662
+Node1 time : 613027886
+
+597 sync print begin***********************
+Local time : 606428661
+Node1 time : 614037896
+
+598 sync print begin***********************
+Local time : 607438666
+Node1 time : 615047903
+
+599 sync print begin***********************
+Local time : 608448661
+Node1 time : 616057898
+
+600 sync print begin***********************
+Local time : 609458662
+Node1 time : 617067903
